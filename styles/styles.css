@@ -1,0 +1,5 @@
+.container {
+    background-color: darkgray;
+    border-radius: 20px; /* zaokrąglenia rogów */
+    padding: 30px;
+}
