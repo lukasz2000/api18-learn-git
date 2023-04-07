@@ -1,5 +1,35 @@
 .container {
     background-color: darkgray;
-    border-radius: 20px; /* zaokrąglenia rogów */
-    padding: 30px;
+    border-radius: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.description {
+    font-size: 14px;
+    font-family: ui-monospace;
+    margin-bottom: 16px;
+}
+
+.link {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.link:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
 }
