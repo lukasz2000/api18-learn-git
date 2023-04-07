@@ -1,20 +1,26 @@
-.container {
-    background-color: darkgray;
-    border-radius: 20px;
+
+.TopGun, .Dune {
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
 }
 
-.container2 {
+.TopGun {
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+.Dune {
     background-color: yellowgreen;
     border-radius: 30px;
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
     color: darkblue;
+}
+
+.description {
+    font-size: 14px;
+    font-family: ui-monospace;
+    margin-bottom: 16px;
 }
 
 .description2 {
@@ -30,11 +36,7 @@
     text-align: center;
 }
 
-.description {
-    font-size: 14px;
-    font-family: ui-monospace;
-    margin-bottom: 16px;
-}
+
 
 .link {
     padding: 10px 20px;
