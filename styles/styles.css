@@ -1,11 +1,13 @@
 .container {
-    background-color: darkgray;
+    border-radius: 20px; /* zaokrąglenia rogów */
+    padding: 30px;
     border-radius: 20px;
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
     padding: 20px;
 }
+
 
 .heading {
     font-size: 32px;
@@ -32,4 +34,45 @@
     background-color: #fff;
     color: #000;
     border-radius: 20px;
+}
+
+
+.city-sin,.top-gun{
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+.city-sin .heading {
+
+    text-decoration: none;
+    color: red;
+    font-family: fantasy;
+}
+
+.city-sin .name{
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 15;
+    color: red;
+}
+
+
+
+.city-sin .description {
+    font-family: fantasy;
+    color:red;
+
+}
+
+.city-sin .link {
+    color: red;
+    text-decoration: none;
+    font-family: fantasy
+}
+
+
+.city-sin .link:hover {
+    background-color: red;
+    color:black;
+
 }
