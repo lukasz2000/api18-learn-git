@@ -7,10 +7,27 @@
     padding: 20px;
 }
 
+.container2 {
+    background-color: yellowgreen;
+    border-radius: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    color: darkblue;
+}
+
+.description2 {
+    font-size: 14px;
+    font-family: ui-monospace;
+    margin-bottom: 16px;
+}
+
 .heading {
     font-size: 32px;
     font-weight: bold;
     text-decoration: underline;
+    text-align: center;
 }
 
 .description {
