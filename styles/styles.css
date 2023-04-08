@@ -5,7 +5,6 @@
     margin: 0 auto;
     text-align: center;
     padding: 20px;  
-    margin-bottom: 40px; 
 }
 
 .heading {
@@ -15,7 +14,7 @@
 }
 
 .description {
-    font-size: 20px;
+    font-size: 14px;
     font-family: ui-monospace;
     margin-bottom: 16px;
 }
@@ -36,6 +35,7 @@
 
 .lordoftherings {
     background-color: #000;
+    margin-top: 50px;
 }
 
 .lotr .movie {
@@ -44,6 +44,7 @@
 
 .lotr .description, h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 .lotr .hyperlink {
@@ -68,12 +69,3 @@
 .lotr p, .lotr h3, .lotr a, .lotr h1 {
     color: white;
 } 
-
-
-
-
-
-
-
-
-
