@@ -33,6 +33,62 @@
     border-radius: 20px;
 }
 
+/* Interstellar movie section */
+.container.interstellar-container {
+    background-color: rgb(10, 0, 65);
+    padding: 20px 25px 20px 25px;
+}
+
+.container.interstellar-container .heading {
+    color: #ae00ff;  
+}
+
+.container.interstellar-container .bottom-title{
+    color:rgb(255, 0, 234);
+}
+
+.container.interstellar-container .description {    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 22px;
+    color: #a27ef8;
+}
+
+.container.interstellar-container .link {
+    padding: 10px 50px;
+    font-size: x-large;
+    background-color: #120774;
+    color: #ff00bf;    
+    border-radius: 20px;
+}
+
+.container.interstellar-container .link:hover {
+    padding: 14px 55px;
+    background-color: #5a14ff;
+    color: #ffffff;   
+}
+
+.container.interstellar-container .more-options-section {
+    padding: 50px 50px 50px 50px;      
+}
+
+.container.interstellar-container .wiki-link,
+.container.interstellar-container .trailer-link,
+.container.interstellar-container .rating-link {
+    padding: 10px 40px;
+    background-color: #120774;
+    color: #ff00bf;    
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.container.interstellar-container .wiki-link:hover,
+.container.interstellar-container .trailer-link:hover,
+.container.interstellar-container .rating-link:hover {
+    padding: 14px 55px;
+    background-color: #5a14ff;
+    color:#fff;
+    text-decoration: none;
+}
 .lordoftherings {
     background-color: #000;
     margin-top: 50px;
