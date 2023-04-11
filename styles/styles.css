@@ -34,9 +34,15 @@
   border-radius: 20px;
 }
 
-.Shrek .container {
+.containerShrek {
   background-color: #318031;
   border: solid;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
 }
 
 .Shrek .video-card {
