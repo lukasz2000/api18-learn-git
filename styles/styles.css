@@ -1,35 +1,81 @@
 .container {
-    background-color: darkgray;
-    border-radius: 20px;
-    max-width: 500px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
+  background-color: darkgray;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
 }
 
 .heading {
-    font-size: 32px;
-    font-weight: bold;
-    text-decoration: underline;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .description {
-    font-size: 14px;
-    font-family: ui-monospace;
-    margin-bottom: 16px;
+  font-size: 14px;
+  font-family: ui-monospace;
+  margin-bottom: 16px;
 }
 
 .link {
-    padding: 10px 20px;
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-    text-decoration: none;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-
 .link:hover {
-    background-color: #fff;
-    color: #000;
-    border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+}
+
+.Shrek .container {
+  background-color: #318031;
+  border: solid;
+}
+
+.Shrek .video-card {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.Shrek .heading {
+  font-size: 45px;
+  text-decoration-line: overline underline;
+}
+
+.Shrek .description {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Shrek .link {
+  border-radius: 20px;
+  border: solid #000;
+  font-size: 20px;
+  color: #418341;
+}
+
+.Shrek .starring {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Shrek .stars {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Shrek .link:hover {
+  background-color: #318031;
+  color: black;
+}
+
+.Shrek .img {
+  border-radius: 20px;
 }
