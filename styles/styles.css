@@ -34,57 +34,6 @@
   border-radius: 20px;
 }
 
-.containerShrek {
-  background-color: #318031;
-  border: solid;
-  border-radius: 20px;
-  max-width: 500px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  text-align: center;
-  padding: 20px;
-}
-
-.Shrek .video-card {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.Shrek .heading {
-  font-size: 45px;
-  text-decoration-line: overline underline;
-}
-
-.Shrek .description {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.Shrek .link {
-  border-radius: 20px;
-  border: solid #000;
-  font-size: 20px;
-  color: #418341;
-}
-
-.Shrek .starring {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.Shrek .stars {
-  margin-bottom: 50px;
-  font-size: 18px;
-  font-weight: bold;
-}
-.Shrek .link:hover {
-  background-color: #318031;
-  color: black;
-}
-
-.Shrek .img {
-  border-radius: 20px;
-}
 /* Interstellar movie section */
 .container.interstellar-container {
   background-color: rgb(10, 0, 65);
@@ -221,4 +170,55 @@ h3 {
 .dune {
   background-color: #ae00ff;
   padding: 20px;
+}
+.containerShrek {
+  background-color: #318031;
+  border: solid;
+  border-radius: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.Shrek .video-card {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.Shrek .heading {
+  font-size: 45px;
+  text-decoration-line: overline underline;
+}
+
+.Shrek .description {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Shrek .link {
+  border-radius: 20px;
+  border: solid #000;
+  font-size: 20px;
+  color: #418341;
+}
+
+.Shrek .starring {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Shrek .stars {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Shrek .link:hover {
+  background-color: #318031;
+  color: black;
+}
+
+.Shrek .img {
+  border-radius: 20px;
 }
