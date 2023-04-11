@@ -33,10 +33,51 @@
     border-radius: 20px;
 }
 
+
+.lordoftherings {
+    background-color: #000;
+    margin-top: 50px;
+}
+
+.lotr .movie {
+    border-radius: 10px;
+}
+
+.lotr .description, h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.lotr .hyperlink {
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.lotr .btn {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: brown;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.lotr .btn:hover {
+    background-color: red;
+    transition: 0.3s ease-in;
+}
+
+.lotr p, .lotr h3, .lotr a, .lotr h1 {
+    color: white;
+} 
+
 /* Interstellar movie section */
 .container.interstellar-container {
     background-color: rgb(10, 0, 65);
+    margin: 50px auto 25px auto;
     padding: 20px 25px 20px 25px;
+    min-width: 500px;
+    max-width: 500px;
 }
 
 .container.interstellar-container .heading {
@@ -78,7 +119,7 @@
     background-color: #120774;
     color: #ff00bf;    
     border-radius: 20px;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 .container.interstellar-container .wiki-link:hover,
@@ -87,41 +128,4 @@
     padding: 14px 55px;
     background-color: #5a14ff;
     color:#fff;
-    text-decoration: none;
 }
-.lordoftherings {
-    background-color: #000;
-    margin-top: 50px;
-}
-
-.lotr .movie {
-    border-radius: 10px;
-}
-
-.lotr .description, h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.lotr .hyperlink {
-   text-decoration: none;
-   font-size: 20px;
-}
-
-.lotr .btn {
-    padding: 15px;
-    border-radius: 10px;
-    background-color: brown;
-    overflow: hidden;
-    margin: 0 auto;
-    cursor: pointer;
-}
-
-.lotr .btn:hover {
-    background-color: red;
-    transition: 0.3s ease-in;
-}
-
-.lotr p, .lotr h3, .lotr a, .lotr h1 {
-    color: white;
-} 
