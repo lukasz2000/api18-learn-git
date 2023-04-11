@@ -4,7 +4,7 @@
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
-    padding: 20px;
+    padding: 20px;  
 }
 
 .heading {
@@ -89,3 +89,39 @@
     color:#fff;
     text-decoration: none;
 }
+.lordoftherings {
+    background-color: #000;
+    margin-top: 50px;
+}
+
+.lotr .movie {
+    border-radius: 10px;
+}
+
+.lotr .description, h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.lotr .hyperlink {
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.lotr .btn {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: brown;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.lotr .btn:hover {
+    background-color: red;
+    transition: 0.3s ease-in;
+}
+
+.lotr p, .lotr h3, .lotr a, .lotr h1 {
+    color: white;
+} 
